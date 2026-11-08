@@ -1,1 +1,0 @@
-https://github.com/agentclientprotocol/claude-agent-acp.git
