@@ -1,53 +1,30 @@
-## Задача 11. Симметричная последовательность
-### Что нужно сделать
-Последовательность чисел называется симметричной, если она одинаково читается как слева направо, так и справа налево. Например, следующие последовательности являются симметричными:
+# Python Fundamentals & Core Engineering 🚀
 
-```
-1 2 3 4 5 4 3 2 1
-1 2 1 2 2 1 2 1
-```
+Welcome to my Python learning journey! This repository is not just a collection of exercises, but a systematic approach to mastering Python from the ground up. 
 
-Пользователь вводит последовательность из N чисел. Напишите программу, которая определяет, какое минимальное количество и каких чисел надо приписать в конец этой последовательности, чтобы она стала симметричной.
+My goal is to build a strong engineering foundation, focusing on clean code, efficiency, and the underlying principles of Computer Science.
 
-Пример 1:
+## 🛠 What's inside:
 
-```
-Кол-во чисел: 5
-Число: 1
-Число: 2
-Число: 1
-Число: 2
-Число: 2
+### 🔹 Core Basics (`/core`)
+- Implementation of basic data types and string manipulation.
+- Development of conditional logic and data filtering systems.
 
-Последовательность: [1, 2, 1, 2, 2]
-Нужно приписать чисел: 3
-Сами числа: [1, 2, 1]
-```
+### 🔹 Data Structures & Logic (`/structures`)
+- Working with advanced collections: Lists, Sets, and Tuples.
+- Implementation of Key-Value mappings (Dictionaries) and their performance analysis.
+- Applying functional programming patterns to decouple logic.
 
-Пример 2:
+### 🔹 System & I/O (`/system`)
+- Robust error handling using `try-except` blocks to ensure application stability.
+- File system integration (reading/writing data) for persistent storage.
+- Modular architecture for better code maintainability.
 
-```
-Кол-во чисел: 5
-Число: 1
-Число: 2
-Число: 3
-Число: 4
-Число: 5
+## 🧠 Technical Focus:
+During the development of these modules, I focused on:
+- **Time and Space Complexity:** Analyzing code performance using **Big O notation**.
+- **Data Efficiency:** Using the right structure (e.g., Hash-tables/Dictionaries) to achieve $O(1)$ lookup time.
+- **Clean Code:** Following PEP 8 guidelines for readability and maintainability.
 
-Последовательность: [1, 2, 3, 4, 5]
-Нужно приписать чисел: 4
-Сами числа: [4, 3, 2, 1]
-```
-### Что оценивается
-- Результат вычислений корректен.
-- Input содержит корректные приглашения для ввода. 
-- Формат вывода соответствует примеру.
-- Переменные и функции имеют значащие имена, не только a, b, c, d (подробнее об этом в видео 2.3).
-
-### Советы и рекомендации
-- Убедитесь что ваш алгоритм работает с разными последовательностями.  
-   Например, с такими:
-    ```
-    [1, 2, 1] — в этом случае ничего добавлять не нужно.
-    [1, 2, 3, 4, 3] — в этом случае надо добавить минимум, то есть числа 2 и 1.
-    ```
+---
+*Self-disciplined learner | 175+ days of daily English practice | Engineering background (MSTU-MIIT)*
